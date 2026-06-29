@@ -32,7 +32,7 @@ jobs:
           context: ./front_despacho
           dockerfile: ./front_despacho/Dockerfile
           push: true
-          tags: ${{ secrets.ECR_REGISTRY }}/inovatech-frontend:latest
+          tags: ${{ secrets.ECR_REGISTRY }}/inova-frontend:latest
           build-args: |
             VITE_API_URL=${{ secrets.VITE_API_URL }}
 
