@@ -1,0 +1,17 @@
+# Variables de entorno - NUNCA subir al repo
+.env
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# Editor
+.idea/
+.vscode/
+*.iml
